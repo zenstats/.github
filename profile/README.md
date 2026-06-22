@@ -93,7 +93,7 @@ Generate test data with `make seed-test` and start exploring at `http://localhos
 
 ## Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](https://github.com/zenstats/zenstats/blob/main/.github/CONTRIBUTING.md) for guidelines on reporting bugs, suggesting features, and submitting pull requests.
+We welcome contributions! See [CONTRIBUTING.md](https://github.com/zenstats/.github/blob/main/CONTRIBUTING.md) for guidelines on reporting bugs, suggesting features, and submitting pull requests.
 
 ## License
 
