@@ -13,7 +13,7 @@ We release security patches for the latest version only. Please upgrade promptly
 
 **Do not open a public issue for security vulnerabilities.**
 
-Instead, send a detailed report to **security@zenstats.dev** (or open a private security advisory on GitHub if available).
+Instead, report it via [GitHub Security Advisory](https://github.com/zenstats/.github/security/advisories/new). This ensures the report stays private until a patch is ready.
 
 Include:
 
@@ -30,7 +30,7 @@ Include:
 | < 7 days | We confirm the vulnerability and assess severity |
 | < 30 days | We release a patch and publish a security advisory |
 
-We follow a coordinated disclosure process: once a patch is available, we'll publish a [GitHub Security Advisory](https://github.com/zenstats/zenstats/security/advisories) and credit the reporter (unless you prefer to remain anonymous).
+We follow a coordinated disclosure process: once a patch is available, we'll publish a [GitHub Security Advisory](https://github.com/zenstats/.github/security/advisories) and credit the reporter (unless you prefer to remain anonymous).
 
 ## Scope
 

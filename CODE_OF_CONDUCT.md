@@ -45,7 +45,7 @@ an individual is officially representing the community in public spaces.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the project team at **conduct@zenstats.dev**. All complaints will
+reported via [GitHub Issues](https://github.com/zenstats/.github/issues) (use the "Report a Code of Conduct violation" template if available, otherwise open a regular issue). All complaints will
 be reviewed and investigated promptly and fairly. All project maintainers are
 obligated to respect the privacy and security of the reporter of any incident.
 
