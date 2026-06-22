@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/zenstats/zenstats-deploy/blob/main/docs/DEPLOY.md
+    about: Check the deployment guide and architecture docs before opening an issue.
+  - name: 💬 Discussions
+    url: https://github.com/zenstats/zenstats/discussions
+    about: For questions, ideas, or general discussion — use GitHub Discussions.
