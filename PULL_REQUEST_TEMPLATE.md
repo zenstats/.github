@@ -7,13 +7,14 @@
 - [ ] I have tested the changes locally
 - [ ] If this is an API change, I have updated Swagger docs where applicable
 - [ ] If this adds a database migration, I have run migrations successfully
+- [ ] If this changes the UI, I have verified it in both light and dark mode
 - [ ] If this changes the UI, I have verified it in both English and Chinese
 - [ ] I have added tests for new functionality (where applicable)
 - [ ] I have updated relevant documentation
 
 ## Screenshots (if applicable)
 
-<!-- Drag-and-drop screenshots here -->
+<!-- Drag-and-drop screenshots here. Include both light and dark mode if UI change. -->
 
 ## Additional notes
 

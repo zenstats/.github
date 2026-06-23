@@ -12,7 +12,7 @@ ZenStats consists of three independent repositories:
 
 | Repository | Purpose | Tech Stack |
 |------------|---------|------------|
-| [**zenstats**](https://github.com/zenstats/zenstats) | Go API backend | Go 1.24, Gin, ent ORM (PG), ClickHouse |
+| [**zenstats**](https://github.com/zenstats/zenstats) | Go API backend | Go 1.25, Gin, ent ORM (PG), ClickHouse |
 | [**zenstats-web**](https://github.com/zenstats/zenstats-web) | React admin panel + Tracker JS SDK | React 19, TypeScript, Vite, Tailwind CSS |
 | [**zenstats-deploy**](https://github.com/zenstats/zenstats-deploy) | Docker Compose deployment | Docker, Caddy, PostgreSQL, ClickHouse |
 
@@ -32,7 +32,7 @@ cp .env.local .env
 make local
 ```
 
-See [zenstats-deploy/README.md](https://github.com/zenstats/zenstats-deploy#readme) for detailed local development instructions.
+See each repository's README for component-specific development instructions.
 
 ## Reporting bugs
 
@@ -51,7 +51,7 @@ Include:
 
 ## Feature requests
 
-Use the Feature Request template in the repo that best matches your request:
+Use the Feature Request template in the repo that best matches your request.
 
 ## Pull request workflow
 
@@ -73,6 +73,7 @@ Use the Feature Request template in the repo that best matches your request:
 - Use `pnpm dev` with `VITE_USE_MOCK=true` for rapid UI iteration
 - Verify translations in both `en.json` and `zh-CN.json`
 - Run `pnpm build` to confirm no build errors
+- Ensure dark mode compatibility — add `dark:` variants to Tailwind classes
 
 ### Documentation
 
@@ -85,6 +86,7 @@ Use the Feature Request template in the repo that best matches your request:
 - **TypeScript/React**: Functional components, hooks over classes, Tailwind utility classes
 - **Commits**: Conventional Commits format preferred (`feat:`, `fix:`, `docs:`, `chore:`)
 - **i18n**: All user-facing strings must have both English and Chinese entries
+- **Dark mode**: All new UI components must support both light and dark themes
 
 ## License
 
