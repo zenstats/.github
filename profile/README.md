@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenstats/zenstats/main/assets/logo-horizontal-dark.svg">
-    <img src="https://raw.githubusercontent.com/zenstats/zenstats/main/assets/logo-horizontal.svg" height="80" alt="ZenStats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenstats/zenstats-web/main/src/assets/logo-h-dark.svg">
+    <img src="https://raw.githubusercontent.com/zenstats/zenstats-web/main/src/assets/logo-h.svg" height="80" alt="ZenStats">
   </picture>
 </p>
 
