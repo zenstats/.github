@@ -2,9 +2,9 @@
 
 <a href="https://github.com/zenstats">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenstats/zenstats-web/main/public/logo-h-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zenstats/zenstats-web/main/public/logo-h.svg" />
-    <img alt="ZenStats" src="https://raw.githubusercontent.com/zenstats/zenstats-web/main/public/logo-h.svg" height="52" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zenstats/zenstats-web/main/src/assets/logo-h-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zenstats/zenstats-web/main/src/assets/logo-h.svg" />
+    <img alt="ZenStats" src="https://raw.githubusercontent.com/zenstats/zenstats-web/main/src/assets/logo-h.svg" height="64" />
   </picture>
 </a>
 
