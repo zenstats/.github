@@ -72,21 +72,24 @@ Use the Feature Request template in the repo that best matches your request.
 
 - Use `pnpm dev` with `VITE_USE_MOCK=true` for rapid UI iteration
 - Verify translations in both `en.json` and `zh-CN.json`
-- Run `pnpm build` to confirm no build errors
-- Ensure dark mode compatibility — add `dark:` variants to Tailwind classes
+- Build with `pnpm build` and run tracker tests (`pnpm --filter ...` / Playwright suite in `tracker/test/`) when changing tracking scripts
+- Compile tracker variants with `node tracker/compile.js` (generates modular builds across the 8 feature flags, plus optional `heatmap.js` and `vitals.js`)
+- Follow `shadcn/ui` component patterns and semantic OKLCH CSS tokens (`bg-card`, `text-foreground`, `border-border`, `dark:` where needed) rather than hardcoded colors
+- Ensure `heatmap/`, `performance/`, and `screenshot/` changes stay consistent with backend contracts
 
 ### Documentation
 
-- Update the relevant `README.md` if you change behavior
+- Update the relevant `README.md` / `README.zh-CN.md` / `docs/` files if you change behavior or endpoints
+- Keep the interactive docs page (`src/pages/docs/`) in sync with markdown documentation
 - Add JSDoc/GoDoc comments for public APIs
 
 ## Style guidelines
 
 - **Go**: Standard library conventions; single-export interfaces preferred
-- **TypeScript/React**: Functional components, hooks over classes, Tailwind utility classes
+- **TypeScript/React**: Functional components, hooks over classes, Tailwind CSS v4 + `shadcn/ui` primitives
 - **Commits**: Conventional Commits format preferred (`feat:`, `fix:`, `docs:`, `chore:`)
 - **i18n**: All user-facing strings must have both English and Chinese entries
-- **Dark mode**: All new UI components must support both light and dark themes
+- **Dark mode**: All new UI components must support both light and dark themes using semantic design tokens
 
 ## License
 

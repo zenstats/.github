@@ -51,6 +51,8 @@ The following are **out of scope**:
 ## Best Practices for Deployers
 
 - Always set a strong `ZENSTATS_SECRET_KEY` in production (generate with `openssl rand -base64 32`)
+- Set an explicit `ZENSTATS_BASE_URL` (or `ZENSTATS_DOMAIN`) so password-reset and email-verification links never rely on untrusted request headers
+- Set a strong random `HEATMAP_SCREENSHOT_TOKEN` when enabling the optional `zenstats-web-screenshot` headless Chromium worker, and keep it on an internal Docker network
 - Change the default `DB_PASSWORD`
 - Run behind HTTPS (Caddy handles this automatically)
 - Keep Docker images updated to the latest tag

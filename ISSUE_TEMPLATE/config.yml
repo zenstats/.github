@@ -1,8 +1,11 @@
 blank_issues_enabled: true
 contact_links:
-  - name: 📖 Documentation
+  - name: 📖 Deployment & Architecture Docs
     url: https://github.com/zenstats/zenstats-deploy/blob/main/docs/DEPLOY.md
     about: Check the deployment guide and architecture docs before opening an issue.
+  - name: 🔌 Tracker & Statistics API Docs
+    url: https://github.com/zenstats/zenstats-web/blob/main/docs/tracker.md
+    about: Reference for tracking script flags, custom events, and query APIs.
   - name: 💬 Discussions
     url: https://github.com/zenstats/zenstats/discussions
     about: For questions, ideas, or general discussion — use GitHub Discussions.

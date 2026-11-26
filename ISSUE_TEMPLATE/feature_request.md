@@ -18,7 +18,8 @@ Any alternative solutions or workarounds you've tried.
 **Affected component(s)**
 - [ ] API backend (zenstats)
 - [ ] Frontend panel (zenstats-web)
-- [ ] Tracker JS SDK
+- [ ] Tracker JS SDK (script / heatmap / vitals)
+- [ ] Screenshot worker (heatmap-screenshot)
 - [ ] Deployment / Docker
 - [ ] Documentation
 
